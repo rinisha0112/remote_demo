@@ -1,0 +1,6 @@
+principle_word=['a','an', 'the', 'and', 'but', 'or', 'on', 'in', 'with']
+
+title=raw_input("Enter the Tiltle: ")
+title_case=[i[0].upper for i in title if i not in principle_word]
+title_case=str(title_case)
+print title_case

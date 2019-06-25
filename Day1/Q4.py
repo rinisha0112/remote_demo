@@ -1,0 +1,8 @@
+password=raw_input("Enter Password: ")
+if password=="psl" or password=="PSL":
+
+    print("ACCESS GRANTED!")
+
+else:
+
+    print("ACCESS DENIED!")

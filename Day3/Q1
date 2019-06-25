@@ -1,0 +1,8 @@
+fh=open("empData.txt",'r')
+empData={}
+#fh=open("empData.txt",'r')
+for line in fh:
+    line=line.rstrip()
+    list1=line.split(":")
+    empData[list1[0]]=list1[1:]
+print(empData)
